@@ -1,12 +1,12 @@
-//Подключение библиотек
+//Essential includes
 #include <iostream>
 #include <string>
 int main(){
-	//Введение переменной name
+	//Create name
 	std::string name;
-	//Ввод значения name
+	//Enter name value
 	std::cin>>name;
-	//Вывод сообщения на экран
+	//Entering message on the screen
 	std::cout<<"Hello world form "<<name<<std::endl;
 	
 	return 1;
