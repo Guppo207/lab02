@@ -1,6 +1,9 @@
 #include <iostream>
+#include <string>
 using namespace std;
 int main(){
-	cout<<"Hello world"<<endl;//Вывод
+	string name;//имя
+	cin>>name;
+	cout<<"Hello world from "<<name<<endl;//Вывод
 	return 1;
 }
